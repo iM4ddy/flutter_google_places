@@ -11,6 +11,11 @@ buildscript {
     }
 }
 
+android {
+    namespace "com.places.flutter_google_places" # New namespace
+    compileSdk 34
+}
+
 allprojects {
     repositories {
         google()
